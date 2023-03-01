@@ -1,0 +1,49 @@
+.container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+#roses{
+    position: fixed;
+    max-width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 30vw;
+    flex-direction: column;
+    font-family: fantasy;
+    background: linear-gradient(90deg, rgba(251,81,63,1) 0%, rgba(244,137,66,1) 100%);
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px 3px rgba(45, 19, 1, 0.75);
+    z-index: 1;
+    text-align: center;
+}
+.label-names{
+    text-align: center;
+}
+
+#username, #password{
+    margin: 10px 10px 30px 30px;
+    border-radius: 20px;
+    background-color: wheat;
+    width: 15vw;
+    text-align: center;
+}
+
+#submit-button{
+    margin-top: 40px;
+    border-radius: .5em;
+    width: 12vw;
+    height: 6vh;
+    background: linear-gradient(90deg, rgba(244,137,66,1) 0%, rgb(251,81,63,1) 100%);
+    text-align: center; 
+}
