@@ -3,47 +3,53 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100vw; 
 }
 
-#roses{
-    position: fixed;
-    max-width: 100%;
-    height: auto;
-    z-index: 0;
+h1{
+    font-size: 50px;
+    color: rgb(35, 5, 5);
+    font-family: 'Farro', fantasy;
 }
+
+#roses{ 
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+} 
 
 .login-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
-    width: 30vw;
     flex-direction: column;
-    font-family: fantasy;
-    background: linear-gradient(90deg, rgba(251,81,63,1) 0%, rgba(244,137,66,1) 100%);
+    background: linear-gradient(215deg, rgb(159, 35, 22) 0%, rgb(210, 12, 55) 100%);
     border-radius: 10%;
     box-shadow: 3px 3px 3px 3px rgba(45, 19, 1, 0.75);
     z-index: 1;
     text-align: center;
-}
-.label-names{
-    text-align: center;
+    min-height: 400px;
+    min-width: 300px;
+    max-height: 50vh;
+    max-width: 600px;
 }
 
 #username, #password{
-    margin: 10px 10px 30px 30px;
-    border-radius: 20px;
-    background-color: wheat;
-    width: 15vw;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(231, 166, 166);
+    height: 15vh;
+    min-width: 15vw;
     text-align: center;
+    overflow: hidden;
+    color: black;
 }
 
 #submit-button{
-    margin-top: 40px;
-    border-radius: .5em;
-    width: 12vw;
-    height: 6vh;
-    background: linear-gradient(90deg, rgba(244,137,66,1) 0%, rgb(251,81,63,1) 100%);
-    text-align: center; 
+    margin: 30px;
+    border-radius: 10px;
+    height: 15vh;
+    width: 15vw;
+    background: linear-gradient(90deg,  rgb(210, 12, 55) 0%,  rgb(159, 35, 22) 100%);
 }
