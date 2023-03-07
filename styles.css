@@ -24,21 +24,21 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(280deg, rgb(229, 5, 57) 0%, rgb(108, 2, 25) 100%);
+    background: linear-gradient(215deg, rgb(229, 5, 57) 0%, rgb(108, 2, 25) 100%);
     border-radius: 10%;
     box-shadow: 3px 3px 3px 3px rgba(45, 19, 1, 0.75);
     z-index: 1;
     text-align: center;
-    min-height: 400px;
-    min-width: 300px;
+    min-height: 20vh;
+    min-width: 30vw;
     max-height: 50vh;
-    max-width: 600px;
+    max-width: 50vw;
 }
 
 #username, #password{
     margin: 20px;
     border-radius: 15px;
-    background-color: rgb(231, 166, 166);
+    background-color: rgb(228, 151, 151);
     height: 15vh;
     min-width: 15vw;
     text-align: center;
